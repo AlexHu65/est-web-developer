@@ -1,8 +1,7 @@
 <?php
-
-session_start();
 require ('./controllers/loginController.php');
 // do login
+session_start();
 
 if(isset($_POST)){
 

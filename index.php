@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +18,17 @@ require_once ('./config/routing.php');
 require_once ('./rendering.php');
 
 // get the path and view
-if(isset($_GET['path'])){
-    $view = $_GET['path'];
+if(isset($_SESSION['login'])){
+
+    $view = 'home';
+
+}else{
+    if(isset($_GET['path'])){
+        $view = $_GET['path'];
+    }
 }
+
+
 
 // render template
 $template = new Rendering;
