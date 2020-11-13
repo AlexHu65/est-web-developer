@@ -27,5 +27,9 @@
             User registered
         </div>
 
-   <?php } ?>
+   <?php
+
+   unset($_SESSION['register']);
+  
+  } ?>
 </div>

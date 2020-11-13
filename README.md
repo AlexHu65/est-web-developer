@@ -1,2 +1,15 @@
 # est-web-developer
 Test for web developer PHP
+
+Features:
+
+-MVC
+-RENDERING
+-POO
+-USE SESSIONS
+-DATABASE INCLUDED IN test_developer.sql
+
+
+Missing features
+-VALIDATION FRONT END (I HAD NOT ENOUGH TIME) :S
+-RESTORE PASSWORD, SAME HERE
